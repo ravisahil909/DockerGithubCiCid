@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build folders
+bin/
+obj/
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# Angular
+dist/
+
+# Environment files
+.env
+
+# Docker
+docker-data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Publish
+publish/
+
+# Rider
+.idea/
+
+# Coverage
+coverage/
+
+# NuGet
+*.nupkg
+
+# SQL
+*.mdf
+*.ldf
+
+# App settings secrets
+appsettings.Development.json
