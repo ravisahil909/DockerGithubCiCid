@@ -1,15 +1,12 @@
-name: Docker CI/CD Pipeline
 
 on:
   push:
     branches:
-      - dev
-      - prod
+      - main
 
-pull_request:
-  branches:
-    - dev
-    - prod
+  pull_request:
+    branches:
+      - main
 
 jobs:
 
